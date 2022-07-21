@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css.css" media="all" type="text/css">
+    <link rel="stylesheet" href="contact.css" media="all" type="text/css">
+</head>
+
+<body>
+    <header>
+        <!--Navbar-->
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">PROJECTS</a></li>
+            </ul>
+        </nav>
+        <hr>
+        <h1>Contact Me</h1>
+    </header>
+    <main>
+        <section>
+            <form>
+                <table id="tbl_form">
+                    <tr>
+                        <th>Name: </th>
+                        <td><input type="text" /></td>
+                    </tr>
+                    <tr>
+                        <th>Email: </th>
+                        <td><input type="text" size="35"></td>
+                    </tr>
+                    <tr>
+                        <th>Reason: </th>
+                        <td>
+                            <select>
+                            <option id="Reason">No Reason</option>
+                            <optgroup label="Personal Reason">
+                            </optgroup>
+                            <optgroup label="Business Reason">
+                            </optgroup>
+                        </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th>Message:</th>
+                        <td><textarea placeholder="Write a detailed message..." rows="10" cols="35"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><button id="submit_btn"> Send </button></td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+        <section>
+            <ul id="contact_links">
+                <li>Phone: (123) 345-2345</li>
+                <li>Email: abcd@gmail.com</li>
+                <li>LinkedIn</li>
+                <li>Facebook</li>
+                <li>Instagram</li>
+                <li>Handshake</li>
+                <li>Mailing Address</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>

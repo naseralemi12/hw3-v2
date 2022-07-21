@@ -1,0 +1,45 @@
+body {
+    color: black;
+}
+
+header {
+    text-align: left;
+}
+
+nav ul {
+    justify-content: flex-start !important;
+}
+
+section img {
+    margin-top: 10px;
+    width: 90%;
+}
+
+#resume_link {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#submit_btn {
+    float: right;
+}
+
+#contact_links {
+    list-style-type: none;
+}
+
+
+/*--------------larger-screen--------------*/
+
+@media screen and (min-width: 750px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+        padding: 5px;
+    }
+}
+
+ul#contact_links>li {
+    style="background-color: rgb(161, 130, 182);"
+}
