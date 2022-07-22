@@ -26,12 +26,13 @@ section img {
 
 #contact_links {
     list-style-type: none;
+    font-weight: bolder;
 }
 
 
 /*--------------larger-screen--------------*/
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 768px) {
     main {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -40,6 +41,68 @@ section img {
     }
 }
 
-ul#contact_links>li {
-    style="background-color: rgb(161, 130, 182);"
+#tbl_form * {
+    padding: 1%;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.fa-reddit {
+    background: #ff5700;
+    color: white;
+}
+
+.btn {
+    transition: transform 250ms;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: none;
+    background: slateblue;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1;
+    animation: mymove 5s infinite;
+    margin-left: 8%;
+}
+
+@keyframes mymove {
+    50% {
+        transform: rotate(360deg);
+    }
+}
+
+.btn:hover {
+    background: rgb(106, 153, 204);
+    border-radius: 25%;
+    color: rgb(143, 51, 134);
+    transform: translateX(50%);
+    transform: translateX(-50%);
 }
