@@ -7,6 +7,7 @@
     <title>Contact Me</title>
     <link rel="stylesheet" href="css.css" media="all" type="text/css">
     <link rel="stylesheet" href="contact.css" media="all" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
@@ -24,11 +25,12 @@
     </header>
     <main>
         <section>
-            <form>
+            <h2>Fill in the following form: </h2>
+            <form style="padding:2% ;">
                 <table id="tbl_form">
                     <tr>
                         <th>Name: </th>
-                        <td><input type="text" /></td>
+                        <td><input type="text" size="35"></td>
                     </tr>
                     <tr>
                         <th>Email: </th>
@@ -47,8 +49,8 @@
                         </td>
                     </tr>
                     <tr>
-                        <th>Message:</th>
-                        <td><textarea placeholder="Write a detailed message..." rows="10" cols="35"></textarea></td>
+                        <th>Message: </th>
+                        <td><textarea placeholder="Write a detailed message..." rows="10" cols="37"></textarea></td>
                     </tr>
                     <tr>
                         <td colspan="2"><button id="submit_btn"> Send </button></td>
@@ -57,18 +59,19 @@
             </form>
         </section>
         <section>
-            <ul id="contact_links">
-                <li>Phone: (123) 345-2345</li>
-                <li>Email: abcd@gmail.com</li>
-                <li>LinkedIn</li>
-                <li>Facebook</li>
-                <li>Instagram</li>
-                <li>Handshake</li>
-                <li>Mailing Address</li>
-            </ul>
+            <h2><span style="background-color:var(--backgroundColor);border-radius: 25%;">Other ways to Connect with me: </span></h2>
+            <a href="#" class="fa fa-facebook" style="border-radius: 30%;"></a>
+            <a href="#" class="fa fa-linkedin" style="border-radius: 30%;"></a>
+            <a href="#" class="fa fa-instagram" style="border-radius: 30%;"></a>
+            <a href="#" class="fa fa-reddit" style="border-radius: 30%;"></a>
         </section>
+
+
     </main>
     <footer>
+        <button class="btn">
+            You Are The Best!
+          </button>
 
     </footer>
 </body>
